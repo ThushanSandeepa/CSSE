@@ -10,6 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CSSE">
         <activity
+            android:name=".ActivityFour"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityThree"
+            android:parentActivityName=".ActivityTwo"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityTwo"
+            android:parentActivityName=".MainActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
